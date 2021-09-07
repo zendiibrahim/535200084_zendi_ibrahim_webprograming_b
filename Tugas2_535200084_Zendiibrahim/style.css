@@ -1,0 +1,355 @@
+body{
+    background-image: url(/images/_MG_1901~2.JPG);
+    background-size: 100%;
+    background-repeat: no-repeat; 
+    font-family: 'Klee One', cursive;
+    --nav-load-time : 300ms;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Klee+One&display=swap');
+
+/*Tempat Untuk NAV*/
+
+#navbar{
+    background-color: rgba(31, 0, 206, 0.774);
+    text-align: center;
+    margin: -16px -8px 0px -8px;
+    animation: nav-load var(--nav-load-time) ease-in;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    background-color: inherit;
+    padding: 2px;
+}
+
+nav li a{
+    display: block;
+    color: rgb(88, 88, 88);
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(59, 54, 54);
+    color: rgb(240, 0, 0);
+}
+/*NAV sampe sini*/
+
+/*tempat utuk section*/
+
+section{
+    --height : auto;
+    --pads : 10px;
+}
+
+.bio{
+    float: left;
+    padding: var(--pads) ;
+    width: 70%;
+    height: var(--height);
+    border-radius: 25px;
+    background-color: rgba(173, 31, 31, 0.747);
+    color: rgb(172, 154, 154);
+    margin: 5px;
+    animation: nav-load var(--nav-load-time);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#sidebar{
+    float: left;
+    width: 150px;
+    height: 540px;
+    background-color: rgba(61, 61, 61, 0.575);
+    border-radius: 25px;
+    padding: var(--pads);
+    margin: 5px;
+    animation: nav-load var(--nav-load-time);
+}
+
+#gsb{
+    width: 150px;
+    height: auto;
+    border-radius: 25px;
+    padding: 0px;
+    animation: nav-load var(--nav-load-time);
+}
+
+article{
+    float: left;
+    padding: var(--pads);
+    width: 70%;
+    height: var(--height);
+    border-radius: 25px;
+    background-color: rgba(61, 61, 61, 0.747);
+    color: rgb(172, 154, 154);
+    margin: 5px;
+    animation: nav-load var(--nav-load-time);
+}
+
+
+.slide1{
+    float: left;
+    padding: var(--pads);
+    width: auto;
+    height: var(--height);
+    border-radius: 25px;
+    background-color: rgba(61, 61, 61, 0.747);
+    color: rgb(172, 154, 154);
+    padding: 5px 25px 25px 25px;
+    margin: 0px 0px 60px 0px;
+    text-align: center;
+    animation: nav-load var(--nav-load-time);
+}
+
+#sdname{
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    font-family: 'Allison', cursive;
+    text-align: left;
+    padding: 0px 0px 0px 0px;
+    animation: nav-load var(--nav-load-time);
+}
+
+/*tempat utk footer*/
+
+#footname{
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    font-family: 'Allison', cursive;
+    text-align: left;
+    padding: 5px;
+    margin: 0px;
+    text-shadow: 2px 2px 5px red;
+    animation: nav-load var(--nav-load-time);
+}
+
+#kaki{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 8%;
+    background-color: rgba(31, 0, 206, 0.89);
+    color: white;
+    text-align: center;
+    
+}
+
+/*Logo IG*/
+
+#ig {
+    float: right;
+   /* margin-top: 0px;*/
+    width: 30px;
+    height: 30px;
+    animation: nav-load var(--nav-load-time);
+}
+
+#ig /*Atur BG sama Posisi Logo*/{
+    list-style-type: none;
+    margin: -52px 100px 0px 0px;
+    padding: 0;
+    text-align: left;
+    background-color: inherit;
+    background-size: 12px;
+}
+
+#ig {
+     display: block;
+    color: rgb(206, 13, 13);
+    padding: 5px 5px;
+    text-decoration: none;
+}
+
+#ig:hover {
+    background-color: rgb(59, 54, 54);
+    background-size: 100px;
+    color: rgb(212, 36, 36);
+}
+
+/*Logo Github*/
+
+#git {
+    float: right;
+   /* margin-top: 0px;*/
+    width: 30px;
+    height: 30px;
+    animation: nav-load var(--nav-load-time);
+}
+
+#git /*Atur BG sama Posisi Logo*/{
+    list-style-type: none;
+    margin: -52px 50px 0px 0px;
+    padding: 0;
+    text-align: left;
+    background-color: inherit;
+    background-size: 12px;
+}
+
+#git {
+     display: block;
+    color: rgb(206, 13, 13);
+    padding: 5px 5px;
+    text-decoration: none;
+}
+
+#git:hover {
+    background-color: rgb(59, 54, 54);
+    background-size: 100px;
+    color: rgb(212, 36, 36);
+}
+
+/*Logo Gmail*/
+
+#gmail {
+    float: right;
+    /*margin-top: 0px;*/
+    width: 30px;
+    height: 30px;
+    animation: nav-load var(--nav-load-time);
+}
+
+#gmail /*Atur BG sama Posisi Logo*/{
+    list-style-type: none;
+    margin: -51px 5px 0px 0px;
+    padding: 0;
+    text-align: left;
+    background-color: inherit;
+    background-size: 12px;
+}
+
+#gmail {
+     display: block;
+    color: rgb(206, 13, 13);
+    padding: 5px 5px;
+    text-decoration: none;
+}
+
+#gmail:hover {
+    background-color: rgb(59, 54, 54);
+    background-size: 100px;
+    color: rgb(212, 36, 36);
+}
+
+/*footer sampe sini*/
+
+/*tempat animasi*/
+
+@keyframes nav-load{
+    0%{
+        transform: translateY(-100%);
+    }
+
+    100%{
+        transform: translateY(0);
+    }
+
+}
+
+/*slide*/
+
+.slider{
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.slides{
+    width: 500%;
+    height: 500px;
+    display: flex;
+}
+
+.slides input{
+    display: none;
+}
+
+.slide{
+    width: 20%;
+    transition: 2s;
+}
+
+.slide img{
+    width: 800px;
+    height: 500px;
+}
+
+/*manual slider*/
+
+.nav-manual{
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn{
+    border: 2px solid #40D3DC;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+
+.manual-btn:hover{
+   background: #40D3DC; 
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+    margin-left: -20%;
+}
+
+#radio3:checked ~ .first{
+    margin-left: -40%;
+}
+
+/*auto  nav*/
+
+.nav-auto{
+    position: absolute;
+    display: flex;
+    width: 800px;
+    justify-content: center;
+    margin-top: 460px;
+}
+
+.nav-auto div{
+    border: 2px solid #40D3DC;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.nav-auto div:not(:last-child){
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .nav-auto .auto-btn1{
+    background: #40D3DC;
+}
+
+#radio2:checked ~ .nav-auto .auto-btn2{
+    background: #40D3DC;
+}
+
+#radio3:checked ~ .nav-auto .auto-btn3{
+    background: #40D3DC;
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allison&display=swap" rel="stylesheet">
+   
+    <title>Hobby</title>
+
+</head>
+    <body>
+        <nav id="navbar">
+            <ul>
+                <li><a href="/HTML/index.html">Home</a></li>
+                <li><a href="/HTML/biodata.html">Biodata</a></li>
+                <li><a href="/HTML/Hobby.html">Hobby</a></li>
+            </ul>
+           </nav>
+        
+           <section class="section">
+        
+                <div id="sidebar">
+                    <img src="/images/_DSC8079.jpg" id="gsb" alt="test">
+                    <h1 id="sdname">Zendi ibrahim</h1>
+                </div>
+        
+                <article>
+                    <h1>Futsal</h1>
+                        <p>
+                            Saya suka street photography dan panorama(nature) photography.<br>
+                            Dan ini merupakan beberapa contohnya : <nr> 
+                        </p>
+                </article>
+               
+                <article class="slide1">
+
+                    <h1>Street and Panorama Photography</h1>
+
+                    <div class="slider">
+                        <div class="slides">
+                            <input type="radio" name="radio-btn" id="radio1">
+                            <input type="radio" name="radio-btn" id="radio2">
+                            <input type="radio" name="radio-btn" id="radio3">
+                        
+                        <div class="slide first">
+                            <img src="/images/_DSC8079.jpg" alt="">
+                        </div>
+                        
+                        <div class="slide">
+                            <img src="/images/_MG_1901~2.JPG" alt="">
+                        </div>
+                        
+                        <div class="slide">
+                            <img src="/images/sky background.jpg" alt="">
+                        </div>
+                        
+                            <div class="nav-auto">
+                                <div class="auto-bnt1"></div>
+                                <div class="auto-bnt2"></div>
+                                <div class="auto-bnt3"></div>
+                            </div>
+
+                        </div>
+
+                        <div class="nav-manual">
+                            <label for="radio1" class="manual-btn"></label>
+                            <label for="radio2" class="manual-btn"></label>
+                            <label for="radio3" class="manual-btn"></label>
+                        </div>
+                        
+                    </div>
+            
+                    <script type="text/javascript">
+                        var counter = 1;
+                        setInterval(function(){
+                            document.getElementById('radio' + counter). checked = true;
+                            counter++;
+                            if(couner > 4){
+                                counter = 1;
+                            }
+                        },5000);
+                    </script>
+
+                </article>
+            </section>
+                   
+            <footer id="kaki">           
+                <h1 id="footname">Zendi ibrahim</h1>
+        
+                <a href="https://www.instagram.com/melvin_pramudita/?hl=en" target="_blank" class="button">
+                <img id="ig" src="/images/instagram.png" alt="logo insta">
+                </a>
+        
+                <a href="https://github.com/Malepin" target="_blank" class="button">
+                <img id="git" src="/images/github-logo.png" alt="logo github">
+                </a>
+        
+                <a href="mailto:pramuditamelvin@gmail.com" target="_blank" class="button">
+                <img id="gmail" src="/images/gmail.png" alt="logo github">
+                </a>        
+           </footer>
+    </body>
+</html>
