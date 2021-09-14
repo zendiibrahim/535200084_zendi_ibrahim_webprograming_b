@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript childNodes</title>
+</head>
+<body>
+    <ul id="menu">
+        <li class="first">Home</li>
+        <li>Products</li>
+        <li class="current">Customer Support</li>
+        <li>Careers</li>
+        <li>Investors</li>
+        <li>News</li>
+        <li class="last">About Us</li>
+    </ul>
+
+    <script>
+        let parentElement = document.getElementById('menu');
+        let children = parentElement.childNodes;
+        console.log(children);
+    </script>
+</body>
+</html>

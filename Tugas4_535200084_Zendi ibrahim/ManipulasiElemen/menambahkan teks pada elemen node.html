@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS CreateElement Demo</title>
+</head>
+<body>
+    <script>
+        let div = document.createElement('div');
+
+        div.id = 'content';
+        div.className = 'classcontent';
+        let text = document.createTextNode('CreateElement menggunakanTextNode');
+        div.appendChild(text);
+        document.body.appendChild(div);
+    </script>
+    
+</body>
+</html>
